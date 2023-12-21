@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="top"
+
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Tic Tac Toe Game "
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="80dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player : "
+            android:layout_gravity="start"
+            android:textSize="20dp"
+
+            />
+        <EditText
+            android:id="@+id/player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter player name"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opponent : "
+            android:layout_gravity="start"
+            android:textSize="20dp"
+
+            />
+        <EditText
+            android:id="@+id/opponent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter opponent name"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="8dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:rowCount="3"
+        android:columnCount="3"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button_1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="#C3C2C2"
+                android:textSize="30dp"
+
+                />
+            <Button
+                android:id="@+id/button_2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="#C3C2C2"
+                android:textSize="30dp"
+
+                />
+            <Button
+                android:id="@+id/button_3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="#C3C2C2"
+                android:textSize="30dp"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/button_4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="#C3C2C2"
+                android:textSize="30dp"
+
+                />
+
+            <Button
+                android:id="@+id/button_5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="#C3C2C2"
+                android:textSize="30dp"
+
+                />
+
+            <Button
+                android:id="@+id/button_6"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="#C3C2C2"
+                android:textSize="30dp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button_7"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:textSize="30dp"
+                android:backgroundTint="#C3C2C2"
+
+
+
+                />
+            <Button
+                android:id="@+id/button_8"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="#C3C2C2"
+                android:textSize="30dp"
+
+                />
+
+            <Button
+                android:id="@+id/button_9"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="#C3C2C2"
+                android:textSize="30dp"
+                />
+        </LinearLayout>
+
+
+
+    </GridLayout>
+
+
+</LinearLayout>
