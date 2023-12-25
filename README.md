@@ -31,3 +31,8 @@ gh repo clone username/Tic_Tac_Toe_App_AI
 <h2>🍰 Contribution Guidelines:</h2>
 
 We're thrilled to have you embark on your learning journey with us. If you're working on improving the Tic Tac Toe game feel free to share your code snippets ideas or improvements. Be open to feedback and be constructive in your critiques.If you encounter any bugs or issues in the game please report them through our designated channels. Include detailed information to help our community identify and address the problem effectively.
+
+<h2> Current Contributors</h2>
+<a href="https://github.com/Pratikdate/Tic_Tac_Toe_App_AI/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Pratikdate/Tic_Tac_Toe_App_AI" />
+</a>
